@@ -15,5 +15,5 @@ The History of Hearthstone includes:
 ### Jupyter notebooks:
 1. kmeans clustering
 
-### Insights
+### High-level insights
 #### 1. kmeans clustering
