@@ -1,4 +1,4 @@
-# Clustering Analysis of Hearthstone Cards: Identifying "Packages"
+# Clustering Analysis of Hearthstone Cards - Identifying "Packages"
 Revealing hearthstone card packages through unsupervised clustering algorithms.
 In Hearthstone, players assemble a deck of 30 cards to play against each other. The fact that some cards synergize well with each other gives rise to the idea of a "package." That is, when considering which card to include in a deck, a set of cards that work really well together should be considered as one bundle, or a cluster.
 This project aims to uncover these 'bundles' or 'packages' through clustering cards together based on the vast decklists in Hearthpwn.  
