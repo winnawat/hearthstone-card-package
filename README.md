@@ -16,8 +16,11 @@ The History of Hearthstone includes:
 2. refs.json: information on all Hearthstone cards such as card ID, name, mana cost, etc.
 
 ## Jupyter notebooks:
-1. kmeans clustering: `hs-package-kmeans`
+1. KMeans clustering: `hs-package-kmeans`
+2. PCA for data visualization: 
 
 ## High-level insights
-### 1. kmeans clustering
+### 1. KMeans clustering
 From the notebook `hs-package-kmeans`, we can see that KMeans clustering works sufficiently well at identifying card packages. Many sets of cards vital to the strong decks in the metagame at that time were identified as a cluster. For instance, a highly optimized **Freeze Mage** archetype is infamously rigid with little room for card changes. The core cards are identified in the **Freeze Mage** cluster. Still, KMeans Clustering does not allow one card to be a member of multiple clusters. Hence, other clustering algorithms may need to be brought in to reflect different archetypes within a class that may utilize the same few cards.
+### 2. Principal Component Analysis
+This section explores visualization of the cards and where they stand relative to one another using Principal Component Analysis (PCA).
