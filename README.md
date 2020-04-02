@@ -27,3 +27,5 @@ From the notebook `hs-package-kmeans`, we can see that KMeans clustering works s
 - T-distributed Stochastic Neighbor Embedding (TSNE)
 
 From the notebook `hs-package-viz.ipynb`, 
+
+![Visualizing the clusters without any partitioning](cluster-nopartition.jpg)
