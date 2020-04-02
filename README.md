@@ -16,12 +16,14 @@ The History of Hearthstone includes:
 2. refs.json: information on all Hearthstone cards such as card ID, name, mana cost, etc.
 
 ## Jupyter notebooks:
-1. KMeans clustering: `hs-package-kmeans`
-2. PCA for data visualization: `hs-package-pca`
+1. KMeans clustering: `hs-package-kmeans.ipynb`
+2. PCA for data visualization: `hs-package-viz.ipynb`
 
 ## High-level insights
 ### 1. KMeans clustering
 From the notebook `hs-package-kmeans`, we can see that KMeans clustering works sufficiently well at identifying card packages. Many sets of cards vital to the strong decks in the metagame at that time were identified as a cluster. For instance, a highly optimized **Freeze Mage** archetype is infamously rigid with little room for card changes. The core cards are identified in the **Freeze Mage** cluster. Still, KMeans Clustering does not allow one card to be a member of multiple clusters. Hence, other clustering algorithms may need to be brought in to reflect different archetypes within a class that may utilize the same few cards.
-### 2. Principal Component Analysis (PCA)
-This section explores visualization of the cards and where they stand relative to one another using Principal Component Analysis (PCA). PCA is a dimensionality deruction technique that decomposes a multi-dimensional matrix of features into a number of arbitary axes which explain the largest portion of the samples' variance. For visualizations, PCA is generally used to decompose the features into 2 dimensions and the samples are then plotted using this 2-dimensional coordinate system.  
-From the notebook, 
+### 2. Visualization using dimensionality reduction
+- Principal Component Analysis (PCA)
+- T-distributed Stochastic Neighbor Embedding (TSNE)
+
+From the notebook `hs-package-viz.ipynb`, 
