@@ -26,6 +26,6 @@ From the notebook `hs-package-kmeans`, we can see that KMeans clustering works s
 - Principal Component Analysis (PCA)
 - T-distributed Stochastic Neighbor Embedding (TSNE)
 
-From the notebook `hs-package-viz.ipynb`, 
+From the notebook `hs-package-viz.ipynb`, we can see that visualization can help to identify some interesting insights such as neutral cards that are found across decks from many classes. However, _curse of dimensionality_ limits how much information is preserved when trying to visualize a high dimensional data onto a 2-dimensional space.
 
-![Visualizing the clusters without any partitioning](cluster-nopartition.jpg)
+![Visualizing the clusters without any partitioning](cluster-partition.jpg)
